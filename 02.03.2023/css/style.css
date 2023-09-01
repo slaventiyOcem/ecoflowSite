@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(147,142,144,0.43);
+}
+/*.wrapper{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+.nav{
+    max-width: 100%;
+    height: 60px;
+    background-color:#82b191;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 70px 0 70px;
+}
+.nav>h1{
+    color: #d3d4c9 ;
+}
+.logo_style{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(0,0,0);
+}
+.logo_style:hover{
+    color: white;
+    transition: 1s;
+
+
+}
+.social-links{
+    display: flex;
+    gap: 20px;
+}
+.wrapper_intent{
+    padding: 20px 200px 0;
+}
+.header{
+    max-width: 100%;
+    min-height: 550px;
+    border-radius: 15px;
+    margin: 50px auto 0;
+}
+.bookmark-home,.bookmark-gallery,.bookmark-address{
+    margin-left: 20px;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px 15px 0 0;
+    display: inline-flex;
+    background-color: rgba(130,177,145,0.43);
+}
+.bookmark-gallery{
+    background-color: rgba(239,133,62,0.43);
+}
+.bookmark-address{
+    background-color: rgba(147,142,144,0.96);
+}
+.bookmark_style{
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 15px 24px 15px 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.bookmark_style:hover{
+    color: white;
+}
+.home,.gallery,.address{
+    width: 100%;
+    min-height: 550px;
+    border-radius: 15px 15px;
+    border-top: 10px solid rgba(130,177,145,0.43);
+    background-color: rgba(255, 204, 153,0.3);
+    padding: 50px;
+    display: none;
+}
+
+.home>h2{
+    font-size: 35px;
+    margin-top:20px;
+}
+.home>p,ul{
+    margin-top:20px;
+    font-size: 20px;
+}
+.home>ul>li{
+    margin-left: 40px;
+    line-height: 60px
+}
+.home>p>span{
+    font-weight: 700;
+}
+.link_style_home{
+    color: #000000;
+    text-decoration: none;
+}
+.link_style_home:hover{
+    text-decoration: underline;
+}
+.gallery{
+    border-top: 10px solid rgba(239,133,62,0.43);
+    background-color:rgba(255, 204, 153,0.3) ;
+}
+.gallery>img{
+    margin: 34px;
+    width: 425px;
+    height: 450px;
+}
+.address{
+    border-top: 10px solid rgba(147,142,144,0.96);
+    background-color:rgba(255, 204, 153,0.3) ;
+}
+.address>h2{
+    text-align: center;
+}
+iframe{
+    display: flex;
+    margin: 10px auto 0;
+    width: 90%;
+    height: 550px;
+    border: none;
+    border-radius: 15px 15px 0 0;
+    background-repeat: no-repeat;
+}
+.home:target{
+    display: block;
+}
+.gallery:target{
+    display: block;
+}
+.address:target{
+    display: block;
+}
+.text_bottom{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
